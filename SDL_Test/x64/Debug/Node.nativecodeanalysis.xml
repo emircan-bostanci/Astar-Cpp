@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dogukansimsek\source\repos\SDL_Test\</FILEPATH>
+      <FILENAME>Node.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::fCost' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@HHW4Status@0@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::fCost</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dogukansimsek\source\repos\SDL_Test\</FILEPATH>
+      <FILENAME>Node.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::hCost' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@HHW4Status@0@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::hCost</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dogukansimsek\source\repos\SDL_Test\</FILEPATH>
+      <FILENAME>Node.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::gCost' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@HHW4Status@0@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::gCost</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dogukansimsek\source\repos\SDL_Test\</FILEPATH>
+      <FILENAME>Node.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::backTrackedPath' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@HHW4Status@0@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::backTrackedPath</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dogukansimsek\source\repos\SDL_Test\</FILEPATH>
+      <FILENAME>Node.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::parent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@HHW4Status@0@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::parent</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
