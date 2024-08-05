@@ -51,7 +51,7 @@ int create_window() {
             }
             if (i == 0 && j == 0) {
                 nodes[i * rowSize + j] = Node(i, j, Node::Status::START);
-                start = &nodes[i * rowSize + j];
+                start = &nodes[0];
             }
         }
         
