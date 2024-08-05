@@ -3,11 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|solutionrelative:Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.40.33807\\INCLUDE\\VECTOR||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|solutionrelative:Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Astar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -18,15 +15,18 @@
       "RelativeMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|solutionrelative:SDL_Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|solutionrelative:Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|solutionrelative:Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Astar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1526BD07-86B8-4334-918B-7AEF39F80D8A}|SDL_Test.vcxproj|solutionrelative:Astar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\exe_common.inl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -42,35 +42,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 285,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Node.h",
               "DocumentMoniker": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.h",
               "RelativeDocumentMoniker": "Node.h",
               "ToolTip": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.h",
               "RelativeToolTip": "Node.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwB8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-02T07:48:17.347Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Astar.cpp",
               "DocumentMoniker": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Astar.cpp",
               "RelativeDocumentMoniker": "Astar.cpp",
               "ToolTip": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Astar.cpp",
               "RelativeToolTip": "Astar.cpp",
-              "ViewState": "AQIAAAcAAAAAAAAAAIAwwCEAAAAuAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-02T14:30:11.013Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -110,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vector",
@@ -118,12 +116,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vector",
               "ViewState": "AQIAAEsHAAAAAAAAAAAtwGAHAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-05T10:28:39.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T10:28:39.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "delete_scalar.cpp",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp",
@@ -147,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Astar.h",
               "DocumentMoniker": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Astar.h",
               "RelativeDocumentMoniker": "Astar.h",
@@ -171,29 +168,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Node.cpp",
               "DocumentMoniker": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.cpp",
               "RelativeDocumentMoniker": "Node.cpp",
               "ToolTip": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\Node.cpp",
               "RelativeToolTip": "Node.cpp",
-              "ViewState": "AQIAABYAAAAAAAAAAAAewCsAAAAgAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAIAwwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-02T07:51:02.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SDL_Test.cpp",
               "DocumentMoniker": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\SDL_Test.cpp",
               "RelativeDocumentMoniker": "SDL_Test.cpp",
               "ToolTip": "C:\\Users\\dogukansimsek\\source\\repos\\SDL_Test\\SDL_Test.cpp",
               "RelativeToolTip": "SDL_Test.cpp",
-              "ViewState": "AQIAABYAAAAAAAAAAAAewDsAAAAAAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAtwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-02T06:25:27.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T06:25:27.032Z"
             }
           ]
         },

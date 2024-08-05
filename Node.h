@@ -29,7 +29,7 @@ public:
 
 	Status status;
 
-	std::vector<Node> FindNeighbours();
+	std::vector<Node*> FindNeighbours();
 	void CalculateFCost();
 	void CalculateHCost(int goalX,int goalY);
 	void CalculateGCost();

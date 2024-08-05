@@ -35,25 +35,32 @@ void Node::CalculateHCost(int goalX,int goalY) {
 //==========================
 //___________________________
 //Returns neighbours positions
-vector<Node> Node::FindNeighbours() 
+vector<Node * > Node::FindNeighbours() 
 {
-	std::vector<Node> neighbours;
+	std::vector<Node*> neighbours;
 
 	for (int i = -1; i <= 1; i++) {
 		for (int j = 1; j >= -1; j--) {
 			if (i == 0 && j == 0) continue;
+
 			int neighbourX = Node::posX + i;
 			int neighbourY = Node::posY + j;
+
+			if (neighbourX < 1) { continue; }
+			if (neighbourX > 15) { continue; }
+			if (neighbourY < 0) { continue; }
+			if (neighbourY > 15) { continue; }
+
 			auto node = Node(neighbourX,neighbourY,Status::NORMAL);
 			node.SetParent(this);
-			neighbours.push_back(node);
+			neighbours.push_back(&node);
 		}
 	}
 
 	for (auto i : neighbours) {
 		cout << "Self Location X" << this->posX << "\n";
 		cout << "Self Location Y" << this->posY << "\n";
-		cout << "Neighbour Location : " << i.posX  <<" - "<< i.posY << "\n";
+		cout << "Neighbour Location : " << i->posX  <<" - "<< i->posY << "\n";
 	}
 
 	return neighbours;

@@ -30,9 +30,9 @@ vector<Node*> Astar::Find() {
 		}
 
 		//Generating Neighbours
-		vector<Node> neighbours = selectedNode->FindNeighbours();
+		vector<Node*> neighbours = selectedNode->FindNeighbours();
 		for (int i = 0; i < neighbours.size(); i++) {
-			if (neighbours[i].posX == Astar::goalNode->posX && neighbours[i].posY == Astar::goalNode->posY) {
+			if (neighbours[i]->posX == Astar::goalNode->posX && neighbours[i]->posY == Astar::goalNode->posY) {
 				cout << "Reached Goal !";
 				vector<Node* > path = vector<Node* >();
 				auto item = closedList[closedList.size() - 1];
@@ -45,23 +45,23 @@ vector<Node*> Astar::Find() {
 			}
 			
 			//Calculating Costs
-			neighbours[i].CalculateGCost();
-			neighbours[i].CalculateHCost(goalNode->posX,goalNode->posY);
-			neighbours[i].CalculateFCost();
+			neighbours[i]->CalculateGCost();
+			neighbours[i]->CalculateHCost(goalNode->posX,goalNode->posY);
+			neighbours[i]->CalculateFCost();
 
 			//Searching Item. If item exist on closed list skip otherwise add to openlist 
 			bool isItemExist = false;
 			for (int j = 0; j < closedList.size(); j++) {
-				if (closedList[i]->posX == neighbours[i].posX && closedList[i]->posY == neighbours[i].posY) {
+				if (closedList[i]->posX == neighbours[i]->posX && closedList[i]->posY == neighbours[i]->posY) {
 					isItemExist = true;
 					break;
 				}
 			}
-			if (neighbours[i].fCost > selectedNode->fCost) {
+			if (neighbours[i]->fCost > selectedNode->fCost) {
 				continue;
 			}
 			else {
-				openList.push_back(&neighbours[i]);
+				openList.push_back(neighbours[i]);
 			}
 		}
 		this->closedList.push_back(selectedNode);
