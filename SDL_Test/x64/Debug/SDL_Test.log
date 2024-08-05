@@ -1,5 +1,2 @@
-﻿  Node.cpp
-C:\Users\dogukansimsek\source\repos\SDL_Test\Node.cpp(24,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  SDL_Test.cpp
-  Generating Code...
+﻿  Astar.cpp
   SDL_Test.vcxproj -> C:\Users\dogukansimsek\source\repos\SDL_Test\x64\Debug\SDL_Test.exe
