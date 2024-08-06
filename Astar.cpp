@@ -28,18 +28,20 @@ vector<Node*> Astar::Find() {
 				selectedNode = openList[i];
 			}
 		}
-
+		openList.erase(openList.begin());
 		//Generating Neighbours
 		vector<Node*> neighbours = selectedNode->FindNeighbours();
 		for (int i = 0; i < neighbours.size(); i++) {
 			if (neighbours[i]->posX == Astar::goalNode->posX && neighbours[i]->posY == Astar::goalNode->posY) {
 				cout << "Reached Goal !";
 				vector<Node* > path = vector<Node* >();
-				auto item = closedList[closedList.size() - 1];
+			 	auto item = closedList[closedList.size()-1];
+				path.push_back(item);
 				while (item->parent != NULL) {
 					path.push_back(item);
 					item = item->parent;
 				}
+				
 				return path;
 
 			}
@@ -51,11 +53,14 @@ vector<Node*> Astar::Find() {
 
 			//Searching Item. If item exist on closed list skip otherwise add to openlist 
 			bool isItemExist = false;
+			if(closedList.size() > 0)
 			for (int j = 0; j < closedList.size(); j++) {
-				if (closedList[i]->posX == neighbours[i]->posX && closedList[i]->posY == neighbours[i]->posY) {
+				if (closedList[j]->posX == neighbours[i]->posX && closedList[j]->posY == neighbours[i]->posY) {
 					isItemExist = true;
-					break;
 				}
+			}
+			if (isItemExist == true) {
+				continue;
 			}
 			if (neighbours[i]->fCost > selectedNode->fCost) {
 				continue;

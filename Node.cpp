@@ -8,6 +8,7 @@ Node::Node(int posX, int posY, Status status) {
 	this->posX = posX;
 	this->posY = posY;
 	this->status = status;
+	this->parent = NULL;
 }
 
 
@@ -21,7 +22,7 @@ void Node::CalculateGCost() {
 	this->gCost = this->parent->gCost + 1;
 }
 void Node::CalculateHCost(int goalX,int goalY) {
-	this->hCost = sqrt(pow(this->posX - goalX, 2) + pow(this->posY - posY, 2));
+	this->hCost = sqrt(pow(this->posX - goalX, 2) + pow(this->posY - goalY, 2));
 }
 ////=====================\\
 //||	   2.xy          ||
@@ -43,17 +44,17 @@ vector<Node * > Node::FindNeighbours()
 		for (int j = 1; j >= -1; j--) {
 			if (i == 0 && j == 0) continue;
 
-			int neighbourX = Node::posX + i;
-			int neighbourY = Node::posY + j;
+			int neighbourX = posX + i;
+			int neighbourY = posY + j;
 
-			if (neighbourX < 1) { continue; }
+			if (neighbourX < 0) { continue; }
 			if (neighbourX > 15) { continue; }
 			if (neighbourY < 0) { continue; }
 			if (neighbourY > 15) { continue; }
 
-			auto node = Node(neighbourX,neighbourY,Status::NORMAL);
-			node.SetParent(this);
-			neighbours.push_back(&node);
+			auto node =new Node(neighbourX,neighbourY,Status::NORMAL);
+			node->SetParent(this);
+			neighbours.push_back(node);
 		}
 	}
 
